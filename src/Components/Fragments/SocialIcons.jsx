@@ -1,30 +1,18 @@
-import { FaFacebookSquare } from 'react-icons/fa'
 import { BsWhatsapp } from 'react-icons/bs'
-import { IoMail } from 'react-icons/io5'
 import { BsInstagram } from 'react-icons/bs'
 
 export const SocialIcons = () => {
 	let Icons = [
 		{
 			id: 1,
-			href: '#instagram',
+			href: 'https://www.instagram.com/aishinofood/',
 			nameIcon: <BsInstagram className='fill-black w-5 h-5' />
 		},
 		{
 			id: 2,
-			href: '#facebook',
-			nameIcon: <FaFacebookSquare className='fill-black w-5 h-5' />
-		},
-		{
-			id: 3,
 			href: 'http://wa.me/6282155290550',
 			nameIcon: <BsWhatsapp className='fill-black w-5 h-5' />
 		},
-		{
-			id: 4,
-			href: '#mail',
-			nameIcon: <IoMail className='fill-black w-5 h-5' />
-		}
 	]
 
 	return (
