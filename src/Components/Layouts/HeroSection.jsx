@@ -1,9 +1,22 @@
+import { useEffect, useState } from 'react'
 import { IoIosArrowDown } from 'react-icons/io'
 import { SocialIcons } from '../Fragments/SocialIcons'
 
 export const HeroSection = () => {
+	const [isLoaded, setIsLoaded] = useState(false)
+
+	useEffect(() => {
+		const img = new Image()
+		img.src = '../images/hero.jpg'
+		img.onload = () => setIsLoaded(true)
+	}, [])
+
 	return (
-		<section className='bg-[url(../images/hero.jpg)] bg-cover bg-center bg-fixed h-[100svh]'>
+		<section
+			className={`h-[100svh] bg-cover bg-center bg-fixed ${
+				isLoaded ? 'lazyloaded' : 'lazyload'
+			}`}
+		>
 			<div className='h-full w-full backdrop-brightness-50 bg-dark/50 flex items-center justify-center'>
 				<div className='text-center text-white pt-20 px-5 md:px-20'>
 					<p className='text-lg tracking-wider'>WELCOME TO</p>
@@ -18,7 +31,8 @@ export const HeroSection = () => {
 
 					<a
 						href='#about'
-						className='w-10 mx-auto flex justify-center items-center mt-20'>
+						className='w-10 mx-auto flex justify-center items-center mt-20'
+					>
 						<IoIosArrowDown className='w-7 h-7' />
 					</a>
 				</div>

@@ -36,3 +36,19 @@
 	background: transparent;
 	border: none;
 }
+
+.lazyload {
+	background-image: none;
+}
+
+.lazyloaded {
+	background-image: url('../images/hero.jpg');
+}
+
+.lazyload-about {
+	background-image: none;
+}
+
+.lazyloaded-about {
+	background-image: url('../images/about.jpg');
+}
