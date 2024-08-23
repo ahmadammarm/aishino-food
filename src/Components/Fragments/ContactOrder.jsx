@@ -41,7 +41,7 @@ export const ContactOrder = () => {
 			<div className='flex items-center justify-between w-full px-5 pb-1 text-sm lg:px-20 mb-5'>
 				<div className='flex gap-2 items-center'>
 					<img className='w-4 h-4' src='logo.png' alt='Logo' />
-					<p className='font-serif tracking-wider text-base'>© 2024 | Aishino Food.</p>
+					<p className='font-serif tracking-wider text-base'>© 2024 | Aishino Food. All Rights Reserved</p>
 				</div>
 			</div>
 		</>
