@@ -10,7 +10,7 @@ export const ContactOrder = () => {
 		<>
 			<div id='contact' className='px-5 pt-20 pb-10 lg:px-20'>
 				<SectionTitle>Kontak Kami</SectionTitle>
-				<div className='rounded-3xl shadow-md overflow-hidden bg-[url(../images/order-img.webp)] bg-center bg-cover'>
+				<div className='rounded-3xl shadow-md overflow-hidden bg-[url(../images/about.jpg)] bg-center bg-cover'>
 					<div className='text-white text-center py-14 bg-dark/70'>
 						<p>HUBUNGI KAMI UNTUK</p>
 						<h4 className='font-serif font-semibold tracking-wider pb-1'>
