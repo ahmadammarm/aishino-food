@@ -40,8 +40,7 @@ export const AboutSection = () => {
 					<SectionTitle>Tentang Kami</SectionTitle>
 
 					<p className='pb-5'>
-						<span className='font-bold'>Aishino Food</span> didirikan pada
-						tahun ??? dengan misi untuk menyediakan layanan yang unggul dan memenuhi kebutuhan pelanggan dengan sepenuh hati. Dengan membangun tim dan layanan pelanggan yang responsif, kami berkomitmen untuk menjadi toko camilan yang andal dan selalu siap melayani pelanggan dengan mudah. Tujuan kami adalah untuk menciptakan pengalaman berbelanja yang nyaman dan memuaskan yang di mana pelanggan selalu menjadi prioritas utama.
+						<span className='font-bold'>Aishino Food</span> memiliki misi untuk menyediakan layanan yang unggul dan memenuhi kebutuhan pelanggan dengan sepenuh hati. Dengan membangun tim dan layanan pelanggan yang responsif, kami berkomitmen untuk menjadi toko camilan yang andal dan selalu siap melayani pelanggan dengan mudah. Tujuan kami adalah untuk menciptakan pengalaman berbelanja yang nyaman dan memuaskan yang di mana pelanggan selalu menjadi prioritas utama.
 					</p>
 
 					<div className='pb-10 flex items-center gap-3'>
