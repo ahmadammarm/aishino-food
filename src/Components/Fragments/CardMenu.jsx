@@ -33,15 +33,15 @@ export const Body = ({ name, children }) => {
 		</>
 	)
 }
-export const Footer = ({ price }) => {
+export const Footer = ({ price, link }) => {
 	return (
 		<div className='flex items-center justify-between pt-3'>
 			<p className='font-bold'>{price}</p>
 			<div className='flex gap-2 items-center'>
-				{/* Order Link using a element */}
 				<a
-					href='#'
+					href={link}
 					className='bg-red-600 text-white px-6 py-2 rounded-lg text-xl'
+					target='_blank'
 				>
 					Pesan
 				</a>

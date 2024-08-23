@@ -12,6 +12,7 @@ let menus = [
 		description: `Pilihan Daging Ayam Yang Juici Bertabur Dengan Bumbu Rempah-Rempah.`,
 		price: 'IDR 12.500',
 		category: 'makanan',
+		link: "https://gofood.link/a/MLggCcN"
 	},
 	{
 		id: 2,
@@ -21,6 +22,7 @@ let menus = [
 		description: `Kentang Goreng Berkualitas Dengan Pilihan Bumbu Rempah-Rempah.`,
 		price: 'IDR 9.500',
 		category: 'makanan',
+		link: "https://gofood.link/a/MLggnCU"
 	},
 	{
 		id: 3,
@@ -30,6 +32,7 @@ let menus = [
 		description: `Tahu Berkualitas Super Yang Dibalut Tepung Crispy Dan Bumbu Rempah-Rempah.`,
 		price: 'IDR 7.000',
 		category: 'makanan',
+		link: "https://gofood.link/a/MLgfUQq"
 	},
 	{
 		id: 4,
@@ -39,6 +42,7 @@ let menus = [
 		description: `Sosis Lembut Berkualitas Dengan Taburan Bumbu Rempah-rempah.`,
 		price: 'IDR 9.500',
 		category: 'makanan',
+		link: "https://gofood.link/a/MLgescj"
 	},
 	{
 		id: 5,
@@ -48,6 +52,7 @@ let menus = [
 		description: `Bakso Premium Dari Daging Sapi Pillihan Dengan Taburan Bumbu Rempah Rempah.`,
 		price: 'IDR 9.500',
 		category: 'makanan',
+		link: "https://gofood.link/a/MLge9SQ"
 	},
 	{
 		id: 6,
@@ -57,6 +62,7 @@ let menus = [
 		description: `Nuget Ayam Premium Yang Ditaburi Bumbu Rempah Rempah.`,
 		price: 'IDR 9.500',
 		category: 'makanan',
+		link: "https://gofood.link/a/MLgdW43"
 	},
 	{
 		id: 7,
@@ -66,60 +72,67 @@ let menus = [
 		description: `Mie Kriuk premium yang ditaburi bumbu rempah Ori/spicy.`,
 		price: 'IDR 7.000',
 		category: 'makanan',
+		link: "https://gofood.link/a/MLgdC2E"
 	},
 	{
 		id: 8,
 		name: 'Chicken Stick',
 		image: 'images/menu/chicken-stick.webp',
-		stars: '???',
+		stars: 4.5,
 		description: `Chichen Stick Premium yang Ditaburi Bumbu Rempah - Rempah Ori / Spicy.`,
 		price: 'IDR 9.500',
 		category: 'makanan',
+		link: "https://gofood.link/a/MLgdjm5"
 	},
 	{
 		id: 9,
 		name: 'Chocolate Ice',
 		image: 'images/menu/chocolate-ice.webp',
-		stars: '???',
+		stars: 4.8,
 		description: `Minuman Es Coklat Dengan Kesegaran Yang Nyentrik Dan Bikin Heppy.`,
 		price: 'IDR 12.500',
 		category: 'minuman',
+		link: "https://gofood.link/a/MLg9STS"
 	},
 	{
 		id: 10,
 		name: 'Green Thai Tea ORI',
 		image: 'images/menu/green-thai-tea.webp',
-		stars: '???',
+		stars: 4.7,
 		description: `Minuman Dingin Dari Teh Hijau Pilihan Buat Kamu Yang Doyan Kesegaran Alami.`,
 		price: 'IDR 7.000',
 		category: 'minuman',
+		link: "https://gofood.link/a/MLgdjm5"
 	},
 	{
 		id: 11,
 		name: 'Chin Thai Tea ORI',
 		image: 'images/menu/chin-thai-tea.webp',
-		stars: '???',
+		stars: 4.4,
 		description: `Minuman Dingin Dari Teh Terbaik Pilihan Buat Kamu Yang Doyan Kesegaran Alami.`,
 		price: 'IDR 7.000',
 		category: 'minuman',
+		link: "https://gofood.link/a/MLgaafL"
 	},
 	{
 		id: 12,
 		name: 'Chin Thai Tea Milk',
 		image: 'images/menu/chin-thai-tea-milk.webp',
-		stars: '???',
+		stars: 4.5,
 		description: `Minuman Dingin Dari Gabungan Kesegaran Teh Alami Dan Kelembutan Susu Pilihan.`,
 		price: 'IDR 10.000',
 		category: 'minuman',
+		link: "https://gofood.link/a/MLgaPZb"
 	},
 	{
 		id: 13,
 		name: 'Green Thai Tea Milk',
 		image: 'images/menu/green-thai-tea-milk.webp',
-		stars: '???',
+		stars: 4.7,
 		description: `Minuman Dingin Dari Gabungan Kesegaran Teh Hijau Dan Kelembutan Susu Pilihan.`,
 		price: 'IDR 10.000',
 		category: 'minuman',
+		link: "https://gofood.link/a/MLgcES9"
 	},
 ];
 
@@ -156,7 +169,7 @@ export let MenuSection = () => {
 						<CardMenu.Body name={menu.name}>
 							{menu.description}
 						</CardMenu.Body>
-						<CardMenu.Footer price={menu.price} />
+						<CardMenu.Footer price={menu.price} link={menu.link} />
 					</CardMenu>
 				))}
 			</div>
